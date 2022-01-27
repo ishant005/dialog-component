@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+      display: flex;
+       margin: auto;
+       flex-direction: column;
+      
+      width: 70vw;
+      
+}
+.nav-bar{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     gap: 2rem;
+     border: 1px solid rgb(173, 171, 171);
+     padding-left: 1rem;
+     height: 2rem;
+     align-items: center;
+     color: grey;
+     /* justify-content: center; */
+}
+.alert:hover{
+    cursor: pointer;
+  background-color: rgb(238, 237, 237);
+}
+.simple:hover{
+    cursor: pointer;
+  background-color: rgb(238, 237, 237);
+}
+.confirmation:hover{
+    cursor: pointer;
+  background-color: rgb(238, 237, 237);
+}
+.alert,.simple,.confirmation{
+    padding:7px;
+}
+.dialog-container{
+    /* border: 1px solid red; */
+    background-color: rgb(192, 182, 182);
+    height: 25rem;
+   
+}
+.dialog-box{
+    width: 15rem;
+    height: 10rem;
+    background-color: white;
+    position:relative;
+     top: 50%;
+     left: 50%;  
+     transform: translate(-50%,-50%);
+     border: 1px solid rgb(112, 111, 111);
+     border-radius: 3px;
+     box-shadow:0 0 10px rgb(83, 82, 82);
+     /* transform: translateX(-50%); */
+}
+.dialog-inner-box{
+   margin-bottom: 6rem;  
+}
+.dialog-box-text{
+     padding: 1rem;
+     margin-bottom: 3rem;
+}
+h3{
+    margin-bottom: 0.5rem;
+}  
+.btn-box{
+    padding-left: 4rem;
+}
+.btn1{
+    margin:0rem 1.2rem;
+}
+.btn1,.btn2{
+    border: none;
+    color: blue;
+    background-color: white;
+    font-weight:bold;
+}
+
+/* *********second******** */
+
+.dialog-box-simple{
+    width: 15rem;
+    height: 18rem;
+    background-color: white;
+    position:relative;
+     top: 50%;
+     left: 50%;  
+     transform: translate(-50%,-50%);
+     border: 1px solid rgb(112, 111, 111);
+     border-radius: 3px;
+     box-shadow:0 0 10px rgb(83, 82, 82);
+     /* transform: translateX(-50%); */
+}
+.item-box-content{
+    display: flex;
+    margin: 1rem;
+    padding: .8rem;
+    
+}
+.dialog-inner-box-simple{
+    margin: 1rem;
+}
+.item-box-content{
+    /* border: 1px solid red; */
+}
+.icon{
+   font-size: 2rem;
+}
+.item-box-content p{
+    /* border: 1px solid red; */
+    margin-left: 2rem;
+    padding: 5px;
+    
+}
+.hidden{
+    display: none;
+}
+
